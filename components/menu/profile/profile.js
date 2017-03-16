@@ -12,14 +12,11 @@ astad.components.menu.profile = Vue.component("astad-menu-profile", {
 			type: Function,
 			required: true
 		},
-		// a menu should have:
+		// an action should have:
 		// - title: display title
-		//
-		// if you use the default slot, you also need:
-		// - route: the route to switch to
-		// - parameters: the parameters for the route (if any)
-		// - target: the target of the route (if any)
-		menus: {
+		// - handler: triggered when the action is performed
+		// - hidden: should be set to true if the action should be hidden
+		actions: {
 			type: Array,
 			required: false
 		},

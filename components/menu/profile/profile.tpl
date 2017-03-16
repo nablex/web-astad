@@ -9,11 +9,11 @@
 				<p class="profile-name">{{ name }}</p>
 			</header>
 			
-			<section class="content" v-if="menus && menus.length">
+			<section class="content" v-if="actions && actions.length">
 				<ul class="lined unstyled">
-					<li v-for="menu in menus">
-						<slot menu="menu">
-							<a auto-close href="javascript:void(0)" @click="$services.router.route(menu.route, menu.parameters, menu.target)">{{ menu.title }}</a>
+					<li v-for="action in actions" v-show="!action.hidden">
+						<slot action="action">
+							<a auto-close href="javascript:void(0)" @click="action.handler">{{ action.title }}</a>
 						</slot>
 					</li>
 				</ul>
