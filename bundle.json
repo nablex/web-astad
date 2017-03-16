@@ -1,343 +1,277 @@
 {
 	"name": "js-astad", 
-	"scopes": {
+	"resources": {
+		"components": {
+			"header": {
+				"header.js": {
+					"url": "components/header/header.js"
+				}, 
+				"header.tpl": {
+					"url": "components/header/header.tpl"
+				}
+			}, 
+			"kaai": {
+				"kaai.js": {
+					"url": "components/kaai/kaai.js"
+				}, 
+				"kaai.tpl": {
+					"url": "components/kaai/kaai.tpl"
+				}
+			}
+		}, 
 		"css": {
 			"sasskit_print.css": {
-				"folder": "css", 
 				"url": "css/sasskit_print.css"
 			}, 
 			"font-awesome-4.4.0.css": {
-				"folder": "css", 
 				"url": "css/font-awesome-4.4.0.css"
 			}, 
 			"modules.min.css": {
-				"folder": "css", 
 				"url": "css/modules.min.css"
 			}, 
 			"sasskit.css": {
-				"folder": "css", 
 				"url": "css/sasskit.css"
 			}, 
 			"aos.css": {
-				"folder": "css", 
 				"url": "css/aos.css"
 			}, 
 			"components.css": {
-				"folder": "css", 
 				"url": "css/components.css"
 			}
 		}, 
 		"fonts": {
 			"sunblaita-webfont.woff2": {
-				"folder": "fonts", 
 				"url": "fonts/sunblaita-webfont.woff2"
 			}, 
 			"SunAntwerpen_300_italic.eot": {
-				"folder": "fonts", 
 				"url": "fonts/SunAntwerpen_300_italic.eot"
 			}, 
 			"antwerpen_tall-webfont.ttf": {
-				"folder": "fonts", 
 				"url": "fonts/antwerpen_tall-webfont.ttf"
 			}, 
 			"sunbla-webfont.eot": {
-				"folder": "fonts", 
 				"url": "fonts/sunbla-webfont.eot"
 			}, 
 			"antwerpen_tall-webfont.svg": {
-				"folder": "fonts", 
 				"url": "fonts/antwerpen_tall-webfont.svg"
 			}, 
 			"antwerpen_regular-webfont.eot": {
-				"folder": "fonts", 
 				"url": "fonts/antwerpen_regular-webfont.eot"
 			}, 
 			"SunAntwerpen_500_italic.eot": {
-				"folder": "fonts", 
 				"url": "fonts/SunAntwerpen_500_italic.eot"
 			}, 
 			"sunreg-webfont.woff": {
-				"folder": "fonts", 
 				"url": "fonts/sunreg-webfont.woff"
 			}, 
 			"sunbol-webfont.svg": {
-				"folder": "fonts", 
 				"url": "fonts/sunbol-webfont.svg"
 			}, 
 			"sunlig-webfont.ttf": {
-				"folder": "fonts", 
 				"url": "fonts/sunlig-webfont.ttf"
 			}, 
 			"sunlig-webfont.svg": {
-				"folder": "fonts", 
 				"url": "fonts/sunlig-webfont.svg"
 			}, 
 			"antwerpen_icons.ttf": {
-				"folder": "fonts", 
 				"url": "fonts/antwerpen_icons.ttf"
 			}, 
 			"sunreg-webfont.eot": {
-				"folder": "fonts", 
 				"url": "fonts/sunreg-webfont.eot"
 			}, 
 			"sunblaita-webfont.woff": {
-				"folder": "fonts", 
 				"url": "fonts/sunblaita-webfont.woff"
 			}, 
 			"sunlig-webfont.woff2": {
-				"folder": "fonts", 
 				"url": "fonts/sunlig-webfont.woff2"
 			}, 
 			"antwerpen_icons_catalog.json": {
-				"folder": "fonts", 
 				"url": "fonts/antwerpen_icons_catalog.json"
 			}, 
 			"fontawesome-webfont.woff": {
-				"folder": "fonts", 
 				"url": "fonts/fontawesome-webfont.woff"
 			}, 
 			"SunAntwerpen_500.eot": {
-				"folder": "fonts", 
 				"url": "fonts/SunAntwerpen_500.eot"
 			}, 
 			"antwerpen_tall-webfont.woff2": {
-				"folder": "fonts", 
 				"url": "fonts/antwerpen_tall-webfont.woff2"
 			}, 
 			"SunAntwerpen_500_italic.woff": {
-				"folder": "fonts", 
 				"url": "fonts/SunAntwerpen_500_italic.woff"
 			}, 
 			"sunbla-webfont.woff": {
-				"folder": "fonts", 
 				"url": "fonts/sunbla-webfont.woff"
 			}, 
 			"SunAntwerpen_300.svg": {
-				"folder": "fonts", 
 				"url": "fonts/SunAntwerpen_300.svg"
 			}, 
 			"SunAntwerpen_700_italic.woff": {
-				"folder": "fonts", 
 				"url": "fonts/SunAntwerpen_700_italic.woff"
 			}, 
 			"sunreg-webfont.svg": {
-				"folder": "fonts", 
 				"url": "fonts/sunreg-webfont.svg"
 			}, 
 			"sunbolita-webfont.woff": {
-				"folder": "fonts", 
 				"url": "fonts/sunbolita-webfont.woff"
 			}, 
 			"sunblaita-webfont.eot": {
-				"folder": "fonts", 
 				"url": "fonts/sunblaita-webfont.eot"
 			}, 
 			"sunreg-webfont.ttf": {
-				"folder": "fonts", 
 				"url": "fonts/sunreg-webfont.ttf"
 			}, 
 			"SunAntwerpen_700.eot": {
-				"folder": "fonts", 
 				"url": "fonts/SunAntwerpen_700.eot"
 			}, 
 			"sunbla-webfont.ttf": {
-				"folder": "fonts", 
 				"url": "fonts/sunbla-webfont.ttf"
 			}, 
 			"sunbol-webfont.woff": {
-				"folder": "fonts", 
 				"url": "fonts/sunbol-webfont.woff"
 			}, 
 			"SunAntwerpen_300_italic.svg": {
-				"folder": "fonts", 
 				"url": "fonts/SunAntwerpen_300_italic.svg"
 			}, 
 			"SunAntwerpen_700.woff": {
-				"folder": "fonts", 
 				"url": "fonts/SunAntwerpen_700.woff"
 			}, 
 			"sunbla-webfont.svg": {
-				"folder": "fonts", 
 				"url": "fonts/sunbla-webfont.svg"
 			}, 
 			"antwerpen_regular-webfont.svg": {
-				"folder": "fonts", 
 				"url": "fonts/antwerpen_regular-webfont.svg"
 			}, 
 			"antwerpen_regular-webfont.woff2": {
-				"folder": "fonts", 
 				"url": "fonts/antwerpen_regular-webfont.woff2"
 			}, 
 			"antwerpen_regular-webfont.ttf": {
-				"folder": "fonts", 
 				"url": "fonts/antwerpen_regular-webfont.ttf"
 			}, 
 			"sunbolita-webfont.woff2": {
-				"folder": "fonts", 
 				"url": "fonts/sunbolita-webfont.woff2"
 			}, 
 			"sunligita-webfont.woff2": {
-				"folder": "fonts", 
 				"url": "fonts/sunligita-webfont.woff2"
 			}, 
 			"sunlig-webfont.eot": {
-				"folder": "fonts", 
 				"url": "fonts/sunlig-webfont.eot"
 			}, 
 			"sunligita-webfont.svg": {
-				"folder": "fonts", 
 				"url": "fonts/sunligita-webfont.svg"
 			}, 
 			"sunligita-webfont.ttf": {
-				"folder": "fonts", 
 				"url": "fonts/sunligita-webfont.ttf"
 			}, 
 			"SunAntwerpen_700_italic.eot": {
-				"folder": "fonts", 
 				"url": "fonts/SunAntwerpen_700_italic.eot"
 			}, 
 			"sunita-webfont.woff2": {
-				"folder": "fonts", 
 				"url": "fonts/sunita-webfont.woff2"
 			}, 
 			"sunligita-webfont.woff": {
-				"folder": "fonts", 
 				"url": "fonts/sunligita-webfont.woff"
 			}, 
 			"sunlig-webfont.woff": {
-				"folder": "fonts", 
 				"url": "fonts/sunlig-webfont.woff"
 			}, 
 			"antwerpen_icons.woff": {
-				"folder": "fonts", 
 				"url": "fonts/antwerpen_icons.woff"
 			}, 
 			"sunblaita-webfont.ttf": {
-				"folder": "fonts", 
 				"url": "fonts/sunblaita-webfont.ttf"
 			}, 
 			"SunAntwerpen_300.eot": {
-				"folder": "fonts", 
 				"url": "fonts/SunAntwerpen_300.eot"
 			}, 
 			"SunAntwerpen_500.svg": {
-				"folder": "fonts", 
 				"url": "fonts/SunAntwerpen_500.svg"
 			}, 
 			"SunAntwerpen_300_italic.woff": {
-				"folder": "fonts", 
 				"url": "fonts/SunAntwerpen_300_italic.woff"
 			}, 
 			"sunbolita-webfont.eot": {
-				"folder": "fonts", 
 				"url": "fonts/sunbolita-webfont.eot"
 			}, 
 			"sunblaita-webfont.svg": {
-				"folder": "fonts", 
 				"url": "fonts/sunblaita-webfont.svg"
 			}, 
 			"antwerpen_tall-webfont.woff": {
-				"folder": "fonts", 
 				"url": "fonts/antwerpen_tall-webfont.woff"
 			}, 
 			"fontawesome-webfont.eot": {
-				"folder": "fonts", 
 				"url": "fonts/fontawesome-webfont.eot"
 			}, 
 			"sunreg-webfont.woff2": {
-				"folder": "fonts", 
 				"url": "fonts/sunreg-webfont.woff2"
 			}, 
 			"SunAntwerpen_300.woff": {
-				"folder": "fonts", 
 				"url": "fonts/SunAntwerpen_300.woff"
 			}, 
 			"sunita-webfont.woff": {
-				"folder": "fonts", 
 				"url": "fonts/sunita-webfont.woff"
 			}, 
 			"sunbol-webfont.eot": {
-				"folder": "fonts", 
 				"url": "fonts/sunbol-webfont.eot"
 			}, 
 			"fontawesome-webfont.woff2": {
-				"folder": "fonts", 
 				"url": "fonts/fontawesome-webfont.woff2"
 			}, 
 			"SunAntwerpen_500.woff": {
-				"folder": "fonts", 
 				"url": "fonts/SunAntwerpen_500.woff"
 			}, 
 			"sunita-webfont.eot": {
-				"folder": "fonts", 
 				"url": "fonts/sunita-webfont.eot"
 			}, 
 			"sunligita-webfont.eot": {
-				"folder": "fonts", 
 				"url": "fonts/sunligita-webfont.eot"
 			}, 
 			"sunbol-webfont.woff2": {
-				"folder": "fonts", 
 				"url": "fonts/sunbol-webfont.woff2"
 			}, 
 			"SunAntwerpen_500_italic.svg": {
-				"folder": "fonts", 
 				"url": "fonts/SunAntwerpen_500_italic.svg"
 			}, 
 			"antwerpen_tall-webfont.eot": {
-				"folder": "fonts", 
 				"url": "fonts/antwerpen_tall-webfont.eot"
 			}, 
 			"SunAntwerpen_700_italic.svg": {
-				"folder": "fonts", 
 				"url": "fonts/SunAntwerpen_700_italic.svg"
 			}, 
 			"fontawesome-webfont.ttf": {
-				"folder": "fonts", 
 				"url": "fonts/fontawesome-webfont.ttf"
 			}, 
 			"fontawesome-webfont.svg": {
-				"folder": "fonts", 
 				"url": "fonts/fontawesome-webfont.svg"
 			}, 
 			"FontAwesome.otf": {
-				"folder": "fonts", 
 				"url": "fonts/FontAwesome.otf"
 			}, 
 			"sunbolita-webfont.ttf": {
-				"folder": "fonts", 
 				"url": "fonts/sunbolita-webfont.ttf"
 			}, 
 			"sunbolita-webfont.svg": {
-				"folder": "fonts", 
 				"url": "fonts/sunbolita-webfont.svg"
 			}, 
 			"antwerpen_icons.eot": {
-				"folder": "fonts", 
 				"url": "fonts/antwerpen_icons.eot"
 			}, 
 			"sunbla-webfont.woff2": {
-				"folder": "fonts", 
 				"url": "fonts/sunbla-webfont.woff2"
 			}, 
 			"sunita-webfont.ttf": {
-				"folder": "fonts", 
 				"url": "fonts/sunita-webfont.ttf"
 			}, 
 			"sunbol-webfont.ttf": {
-				"folder": "fonts", 
 				"url": "fonts/sunbol-webfont.ttf"
 			}, 
 			"sunita-webfont.svg": {
-				"folder": "fonts", 
 				"url": "fonts/sunita-webfont.svg"
 			}, 
 			"antwerpen_regular-webfont.woff": {
-				"folder": "fonts", 
 				"url": "fonts/antwerpen_regular-webfont.woff"
 			}, 
 			"SunAntwerpen_700.svg": {
-				"folder": "fonts", 
 				"url": "fonts/SunAntwerpen_700.svg"
 			}
 		}
