@@ -1,4 +1,7 @@
-application.views.AstadHeader = Vue.component("astad-header", {
+if (!astad) { var astad = {} }
+if (!astad.components) { astad.components = {} }
+
+astad.components.AstadHeader = Vue.component("astad-header", {
 	props: {
 		title: {
 			type: String,
