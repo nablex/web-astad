@@ -1,7 +1,4 @@
-if (!astad) { var astad = {} }
-if (!astad.components) { astad.components = {} }
-
-astad.components.AstadHeader = Vue.component("astad-header", {
+Vue.component("astad-header", {
 	props: {
 		title: {
 			type: String,

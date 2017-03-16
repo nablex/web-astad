@@ -17,6 +17,16 @@
 				"kaai.tpl": {
 					"url": "components/kaai/kaai.tpl"
 				}
+			}, 
+			"menu": {
+				"profile": {
+					"profile.js": {
+						"url": "components/menu/profile/profile.js"
+					}, 
+					"profile.tpl": {
+						"url": "components/menu/profile/profile.tpl"
+					}
+				}
 			}
 		}, 
 		"css": {
