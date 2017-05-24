@@ -1,6 +1,11 @@
 <template id="astad-kaai">
-	<div class="kaai" v-sticky-header>
+	<div class="kaai" v-sticky-header="240">
 		<div class="kaai-outer-container">
+			<div class="logo-wrapper">
+				<a href="https://antwerpen.be" target="_blank">
+					<img src="/resources/images/astad.png"/>
+				</a>
+			</div>
 			<div class="kaai-wrapper">
 				<div class="kaai-inner-container">
 					<div class="quick-menu" v-auto-close="function() { popoutVisible = false }">

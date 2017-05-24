@@ -29,6 +29,11 @@
 				}
 			}
 		}, 
+		"images": {
+			"astad.png": {
+				"url": "images/astad.png"
+			}
+		}, 
 		"css": {
 			"sasskit_print.css": {
 				"url": "css/sasskit_print.css"
